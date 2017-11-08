@@ -1,5 +1,6 @@
 .container {
 	border: 1px solid black;
+	display: flex;
 }
 .column.large {
 	width: 630px;
@@ -18,6 +19,16 @@
 	border: 1px solid black;
 }
 .hipster {
-	border: 1px solid black;
-	background-image: url "resources/images/hipster.png";
+	color: white;
+	background-image: url("../images/hipster.png");
 }
+.nav {
+	display: flex;
+	flex-direction: row-reverse;
+	
+}
+.news.bites {
+	display: flex;
+	justify-content: flex-start;
+}
+
