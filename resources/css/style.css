@@ -1,19 +1,31 @@
+/* ##### THIS IS THE HEADER ##### */
+.header {
+	display: inline-flex;
+	display: fixed;
+	border: 1px solid black;
+	width: 100%;
+	align-items: center;
+}
 .logo {
+	display: flex;
+	border: 2px solid green;
+	width: 100%;
+}
+.logo p {
+	padding-left: 20px;
 	font-family: Verdana;
 	font-size: 14px;
 	font-weight: bold;
 	color: MediumAquamarine;
 }
-.header {
-	display: flex;
-	font-family: Verdana;
-	font-size: 14px;
-	font-weight: bold;
-}
-.logo, .navigation {
-
-}
 .navigation {
-	align-content: flex-end;
-
+	display: flex;
+	justify-content: flex-end;
+	border: 1px solid blue;
+	width: 100%;
+}
+.list {
+	padding: 50px;
+	border: 1px solid red;
+	width: 100%;
 }
