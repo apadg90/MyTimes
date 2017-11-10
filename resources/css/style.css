@@ -2,14 +2,16 @@
 .header {
 	display: inline-flex;
 	display: fixed;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
 	width: 100%;
 	align-items: center;
 }
 .logo {
 	display: flex;
-	border: 2px solid green;
 	width: 100%;
+}
+.logo img {
+	padding-bottom: 10px;
 }
 .logo p {
 	padding-left: 20px;
@@ -17,15 +19,17 @@
 	font-size: 14px;
 	font-weight: bold;
 	color: MediumAquamarine;
+	align-self: auto;
 }
 .navigation {
 	display: flex;
 	justify-content: flex-end;
-	border: 1px solid blue;
 	width: 100%;
 }
 .list {
-	padding: 50px;
-	border: 1px solid red;
+	padding: 30px;
 	width: 100%;
+}
+.list a {
+	color: black;
 }
