@@ -1,10 +1,13 @@
 /* ##### THIS IS THE HEADER ##### */
 .header {
 	display: inline-flex;
-	display: fixed;
+	position: fixed;
 	border-bottom: 1px solid black;
 	width: 100%;
 	align-items: center;
+	background-color: white;
+	margin: 0;
+	top: 0;
 }
 .logo {
 	display: flex;
@@ -36,8 +39,11 @@
 /* ##### COLUMNS ##### */
 .column {
 	display: flex;
+	padding-top: 80px;
 }
 .column .large {
+	display:flex;
+	flex-wrap: wrap;
 	width: 630px;
 	border: 1px solid black
 }
@@ -99,8 +105,8 @@
 	width: 100%;
 	margin-top: 0;
 	width: 100%;
-	margin-right: 10px;
-	margin-left: 10px;
+	text-align: center;
+	padding-left: 15px;
 }
 #cat {
 	display: flex;
@@ -116,5 +122,15 @@
 	flex-wrap: wrap;
 	border: 1px solid white;
 	justify-content: center;
-	padding: 0px;
+	margin-top: 0;
+	text-align: center;
+}
+.momtitle .mother {
+	width: 360px;
+}
+.orca {
+	width: 280px;
+}
+.burger {
+	width: 280px;
 }
